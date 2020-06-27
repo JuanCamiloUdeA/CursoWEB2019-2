@@ -1,0 +1,32 @@
+.card{
+    border-width: thin;
+    border-color: #0B0B3B;
+}
+.card-body{
+    background-color: rgb(221, 217, 228);
+    text-align: justify;
+}
+
+.card-title{
+    text-align: center;
+    color: #0B0B3B;
+}
+
+#b1{
+    
+    display: block;
+    text-align: center;
+    background-color: rgb(59, 137, 209);
+    margin: 6px;
+  
+}
+
+#b2{
+    position: relative;
+    text-align: center;
+    background-color: #0B0B3B;
+    margin: 4px;  
+}
+
+
+

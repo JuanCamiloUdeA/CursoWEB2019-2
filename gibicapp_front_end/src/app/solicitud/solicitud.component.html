@@ -1,0 +1,57 @@
+<header>
+    <app-header2>
+    </app-header2>
+</header>
+
+    <article class = "container">
+        <section class = "datab row">
+            <div class = "card-wrapper col-12 col-sm-6 col-lg-4 mb-3">
+                <div class = "card">
+                    <div class="card-body">
+                        <h2 class="card-title"> <b>Bases de datos </b></h2>
+                        <p class="card-text">Seleccione la base de datos para observar la información.</p>
+                        <a *ngFor="let DB of DataBase" href="{{ DB.pdf }}" class="btn btn-primary" id="b1">{{ DB.title }}</a>
+                    </div>
+                </div>
+            </div>
+            <div class = "card-wrapper col-12 col-sm-6">
+                <div class = "card">
+                    <div class="card-body">
+                        <h2 class="card-title"> <b>Solicitud</b></h2>
+                        <form>
+                            <div class = "form row">
+                                <div class="form-group col-md-12">
+                                    <select id="selDB" class="form-control">
+                                        <option selected>Seleccione una base</option>
+                                        <option *ngFor="let DB of DataBase">{{DB.title}}</option>
+                                    </select>
+                                  </div>
+                                <div class="form-group col-md-12">
+                                    <input type="text" class="form-control" id="inputNombre" placeholder = "Nombre completo">
+                                </div>
+                                <div class="form-group col-md-12">
+                                    <input type="text" class="form-control" id="inputCorreo" placeholder = "Correo institucional: ejemplo@udea.edu.co">
+                                </div>
+                                <div class="container">
+                                    <div class="comment">
+                                        <textarea class="textinput" placeholder="  Descripción"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                        <button mat-button color = "success" (click)="openDialog()">Enviar</button>
+                    </div> 
+                </div>
+            </div>
+        </section>
+    </article>
+
+
+<footer>
+    <app-footer></app-footer>
+</footer>
+
+
+
+
+

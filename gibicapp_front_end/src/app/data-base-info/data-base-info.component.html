@@ -1,0 +1,37 @@
+<header>
+    <app-header2></app-header2>
+</header>
+    <article class="container">
+        <section class="db row">
+            <div class="card-wrapper col-12 col-sm-6 col-lg-4 mb-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h2 class="card-title"> <b>Bases de datos </b></h2>
+                        <p class="card-text">Seleccione la base de datos para observar la información en un documento PDF.</p>
+                        <a *ngFor="let DB of DataBase" href="{{ DB.pdf }}" class="btn btn-primary" id="b1">{{ DB.title }}</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card-wrapper col-12 col-sm-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h2 class="card-title"> <b>Información </b></h2>
+                        <p class="card-text">En esta plataforma se recolectan las bases de datos que se han desarrollado
+                            producto de investigación científica. La recolección de señales electromiográficas y
+                            ventilatorias acá contenidas han favorecido la elaboración de artículos académicos y
+                            patentes relacionados con el tema. </p>
+                        <p> Una vez revisada la información de la base de datos de su interés puede hacer la
+                            solicitud en el botón de la parte inferior y pronto obtendrá una respuesta por parte del
+                            grupo de investigación. Si la solicitud ha sido confirmada le llegará al correo registrado
+                            la información. Recuerde ser discreto con los datos. </p>
+                            <a  href="/solicitud/" class="btn btn-primary" id="b2"> Solicitar Base de Datos</a>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    </article>
+
+<footer>
+   <app-footer></app-footer>
+</footer>

@@ -1,0 +1,38 @@
+[
+    {
+        "id":"1",
+        "title": "Base de datos Compliance",
+        "pdf": "assets/images/Compliance.pdf"
+    },
+    {
+        "id":"2",
+        "title": "Base de datos Resistance",
+        "pdf": "assets/images/Resistencia.pdf"
+    },
+    {
+        "id":"3",
+        "title": "Base de datos PEEP",
+        "pdf": "assets/images/PEEP.pdf"
+    },
+    {
+        "id":"4",
+        "title": "Base de datos PS",
+        "pdf": "assets/images/PS.pdf"
+    },
+    {
+        "id":"5",
+        "title": "Base de datos FiCO2",
+        "pdf": "assets/images/FiCO2.pdf"
+    },
+    {
+        "id":"6",
+        "title": "Base de datos O2 ",
+        "pdf": "assets/images/FiCO2.pdf"
+    },
+    {
+        "id":"7",
+        "title": "Base de datos de organofosforados (Primera etapa) ",
+        "pdf": "assets/images/Compliance.pdf"
+    }
+]
+
