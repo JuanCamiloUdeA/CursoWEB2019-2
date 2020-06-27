@@ -1,0 +1,16 @@
+[Unit]
+Description=Gunicorn instance to flask project
+After=network.target
+
+[Service]
+User=vagrant
+Group=www-data
+
+WorkingDirectory=/home/vagrant/ejemplos/
+Environment="PATH=/home/vagrant/venv/bin/"
+
+ExecStart=/home/vagrant/venv/bin/gunicorn --workers 3 --bind unix:/home/vagrant/app.sock -m 007 wsgi:app
+
+
+[Install]
+WantedBy=multi-user.target
