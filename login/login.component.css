@@ -1,0 +1,45 @@
+mat-card {
+  max-width: 600px;
+  height: 300px;
+  margin: 2em auto;
+  color:#142850;
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative; /* podría ser relative */
+  top: 100px;
+  text-align: center;
+  border-radius: 10px;
+  border: 2px solid#142850;
+}
+mat-card-header{
+text-align: center;
+justify-content: center;
+}
+mat-card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+mat-button{
+  display:inline-block;
+  padding: 0.35em 1.2em;
+  border: 0.1em solid #0B0B3B;
+  border-radius:0.12em;
+  box-sizing:border-box;
+  text-decoration:none;
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight:300;
+  color:#FFFFFF;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  transition: all 0.2s;
+  background-color: #0B0B3B;
+}
+
+mat-card-actions  >button{
+  color:#FFFFFF;;
+  background-color:#0B0B3B;
+}
